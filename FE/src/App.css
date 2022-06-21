@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+.div-1,
+.div-2 {
+  margin: 10px;
+}
+
+.student-info,
+.student-grades,
+.student-total-grades {
+  height: 100px;
+  width: 100px;
+}
+
+.col-name {
+  font-weight: bold;
+}
+
+.student-grades {
+  margin-top: 10px;
+}
+
+.student-name:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.grade-validation {
+  color: red;
+}
+
+.grade-change {
+  background-color: yellow;
+}
+
+.marks-change {
+  background-color: lightskyblue;
+}
